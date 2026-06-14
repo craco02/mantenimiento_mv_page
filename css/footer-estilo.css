@@ -1,0 +1,60 @@
+.footer-contacto {
+    display: inline-block;
+    background-color: rgb(10, 60, 145, 0.4);
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    justify-content: left;
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+.footer-contacto h2 {
+    display: block;
+    block-size: 100%;
+    font-size: 28px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.footer-contacto address {
+    font-style: normal;
+}
+
+.footer-contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 60px;
+    max-width: 1200px;
+}
+
+.footer-contacto li {
+    display: block;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-contacto i {
+    font-size: 16px;
+    color: #00bfff;
+}
+
+.footer-contacto a,
+.footer-contacto span {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-contacto a:hover {
+    text-decoration: underline;
+}
+
+
