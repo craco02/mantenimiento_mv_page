@@ -5,6 +5,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 .select-title h2 {
     margin: 0;
@@ -46,4 +47,29 @@
 .pg-iframe #visor {
    margin: 0;
    padding: 0;
+}
+.btn-3d {
+    position: absolute; 
+    top: 200px;            
+    right: 120px; 
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    padding: 0 20px;
+    padding-top: 20px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    border: 2px solid darkblue;
+    border-radius: 3px;
+}
+.btn-3d:hover {
+    background-color: cyan;
+    border-color: blue;
+}
+.btn-3d a {
+    color: white;
+    text-decoration: none;
 }
