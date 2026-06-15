@@ -56,10 +56,36 @@
 .footer-contacto a:hover {
     text-decoration: underline;
 }
-.mapa {
+.footer-contacto p {
     display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #000;
+}
+.mapa {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     margin: 0;
     margin-left: 60px;
     padding: 0;
+}
+.mapa-description {
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mapa-description i {
+    font-size: 16px;
+    color: #00bfff;
+    margin-right: 5px;
+}
+.mapa-description span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000;
 }
 
