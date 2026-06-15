@@ -1,18 +1,18 @@
 .footer-contacto {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     background-color: rgb(10, 60, 145, 0.4);
     color: #fff;
     padding: 20px;
     margin: 0;
-    justify-content: left;
+    justify-content: center;
     font-family: "Segoe UI", Arial, sans-serif;
     width: 100%;
     height: auto;
 }
 
 .footer-contacto h2 {
-    display: block;
-    block-size: 100%;
+    display: inline-block;
     font-size: 28px;
     text-align: left;
     margin: 0;
@@ -56,5 +56,10 @@
 .footer-contacto a:hover {
     text-decoration: underline;
 }
-
+.mapa {
+    display: inline-block;
+    margin: 0;
+    margin-left: 60px;
+    padding: 0;
+}
 
