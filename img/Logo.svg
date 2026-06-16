@@ -3,8 +3,8 @@
 
 <svg
    width="600"
-   height="600"
-   viewBox="0 0 600 600"
+   height="400"
+   viewBox="0 0 600 400"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -28,9 +28,9 @@
      inkscape:document-units="px"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="0.2384644"
-     inkscape:cx="312.4156"
-     inkscape:cy="-232.73914"
+     inkscape:zoom="0.67447918"
+     inkscape:cx="341.74517"
+     inkscape:cy="103.04247"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -52,11 +52,11 @@
        gridanglex="30"
        gridanglez="30"
        visible="false" /><sodipodi:guide
-       position="1920,1080"
+       position="1920,880"
        orientation="1080,0"
        id="guide2"
        inkscape:locked="false" /><sodipodi:guide
-       position="1920,0"
+       position="1920,-200"
        orientation="0,-1920"
        id="guide3"
        inkscape:locked="false" /></sodipodi:namedview><defs
@@ -118,7 +118,7 @@
      inkscape:groupmode="layer"
      id="layer1" /><g
      id="g25"
-     transform="translate(-739.57057,-143.60482)"><g
+     transform="translate(-739.57057,-243.60482)"><g
        id="g3"
        transform="matrix(1.0238732,0,0,1.0238732,847.96193,-158.27105)"
        style="display:inline;stroke:none"><g
