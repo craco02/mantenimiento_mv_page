@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mantenimiento Metalúrgica Vera SRL</title>
+        <link rel="icon" href="../img/Logo.png" type="image/png" sizes="32x32">
+        <link rel="stylesheet" href="../css/estilos.css">
+         <link rel="stylesheet" href="../css/estilo-visor.css">
+    </head>
+    <body>
+        <header >
+            <nav class="nav-bar">
+                 <ul class="list-bar">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../index.html#solicitudes">Solicitudes de Mantenimiento</a></li>
+                    <li><a href="../index.html#informaciones">Informaciones Útiles</a></li>
+                    <li><a href="../index.html#form-adds">Formularios Adicionales</a></li>
+                    <li><a href="../index.html#otros">Otros Servicios</a></li>
+                    <li><a href="../index.html#contacto">Contacto</a></li>
+                 </ul>
+            </nav>
+            <div class="banner">
+            <div class="logo"><img height="150" width="150" src="../img/Logo.png" alt="logo metalurgica vera"></div>
+            <div class="hero">
+                <h1>Mantenimiento Metalúrgica Vera S.R.L.</h1>
+                <p>Brindamos soluciones integrales de mantenimiento industrial enfocadas en la confiabilidad, disponibilidad y rendimiento de sus equipos</p>
+            </div>
+            </div>  
+        </header>
+
+        <hr>
+        <section class="selector-doc">
+            <div class="select-title">
+                <!--nuevo sector-->
+                <h2>Visor de documentos PDF</h2>
+            </div>
+            <div class="container-select">
+                <label for="documentos">Selecciona un documento:</label>
+                <!-- Select dinámico -->
+                <select class="pg-select" id="listaDocs" onchange="mostrarPDF()">
+                    <option value="">-- Elegir documento --</option>
+                </select>
+            </div>
+
+            <div class="pg-iframe">
+                <!-- Iframe para mostrar PDF -->
+                <iframe id="visor"
+                width="794px"
+                height="800px">
+                </iframe>
+
+                <script src="../js/iframe-pdf.js"></script>
+
+            </div>   
+                <!--fin de nuevo sector--> 
+        </section>
+  
+    </body>
+    
+</html>

@@ -47,6 +47,8 @@
 .pg-iframe #visor {
    margin: 0;
    padding: 0;
+   border: none;
+   outline: none;
 }
 .btn-3d {
     position: absolute; 
@@ -60,7 +62,6 @@
     font-family: arial;
     font-size: 20px;
     text-align: center;
-    color: white;
     background-color: darkcyan;
     border: 2px solid darkblue;
     border-radius: 3px;
