@@ -131,8 +131,8 @@ header {
 hr {
     margin: 0;
     border: none;              
-    height: 9px;               
-    background-color: #1b4bcf   
+    height: 80px;               
+    /*background-color: #1b4bcf*/ 
 }
 /* Estilos para la sección de solicitudes */
 #solicitudes {
