@@ -140,30 +140,30 @@ hr {
 }
 /* Estilos para la sección de solicitudes */
 #solicitudes {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 40px;
-  box-sizing: border-box;
-  /*background-color: hsl(195, 53%, 79%, 0.5);*/ /* Color de fondo con transparencia */
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    /*background-color: hsl(195, 53%, 79%, 0.5);*/ /* Color de fondo con transparencia */
 }
 #solicitudes-title {
-  margin: 0;
-  padding-top: 50px;
-  font-size: 32px;
-  margin-left: 20px;
-  text-align: left;
-  font-family: sans-serif;
-  box-sizing: border-box;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 32px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
 .form-container {
-  display: flex;
-  flex-wrap: wrap;           
-  gap: 20px;                  
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 20px 0;
-  box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;           
+    gap: 20px;                  
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 0;
+    box-sizing: border-box;
 }
 .item-formularios {
     margin: 0 20px;
@@ -188,8 +188,8 @@ hr {
     
 }
 .item-formularios a {
-color: black;
-text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 span {
     font-size: 50px;
@@ -223,14 +223,14 @@ span {
 
 }
 .informaciones-container {
-  display: flex;
-  flex-wrap: wrap;           
-  gap: 20px;                  
-  align-items: flex-start;
-  justify-content: center;
-  padding: 20px 0;
-  box-sizing: border-box;
-  margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;           
+    gap: 20px;                  
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    margin-left: 40px;
 
 }
 .informaciones li {
@@ -255,23 +255,23 @@ span {
     margin-left: 50px;
 }
 .option-list {
-  list-style-type: lower-alpha;
-  padding: 0;
+    list-style-type: lower-alpha;
+    padding: 0;
 }
 .option-list li {
-  margin: 30px 50px;
-  font-size: 18px;
-  border: 2px solid transparent;
+    margin: 30px 50px;
+    font-size: 18px;
+    border: 2px solid transparent;
 
 }
 .option-list li:hover {
-  background-color: lightgray;
+    background-color: lightgray;
 }
 .option-list i {
-  margin-right: 8px;
-  color: darkblue;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6); 
-  font-size: 35px;
+    margin-right: 8px;
+    color: darkblue;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6); 
+    font-size: 35px;
 }
 .option-list a {
     text-decoration: none;
@@ -307,49 +307,49 @@ span {
     position: relative;
 }
 .timeline::before {
-  content: '';
-  position: absolute;
-  left: 37px;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: #e74c3c;
+    content: '';
+    position: absolute;
+    left: 37px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #e74c3c;
 }
 .timeline li {
-  position: relative;
-  margin: 20px 0;
-  padding-left: 60px;
+    position: relative;
+    margin: 20px 0;
+    padding-left: 60px;
 }
 .timeline li a{
     text-decoration: none;
 }
 .timeline li::before {
-  content: '⬤';
-  position: absolute;
-  left: 10px;
-  top: 15px;
-  font-size: 20px;
-  color: #e74c3c;
+    content: '⬤';
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 20px;
+    color: #e74c3c;
 }
 .timeline .content {
-  background: lightgreen;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin: 0;
+    background: lightgreen;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0;
 }
 .timeline .content:hover {
     background-color: darkgreen;
 }
 .timeline h3 {
-  margin: 0 0 5px;
-  font-size: 16px;
-  color: #0f172a;
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #0f172a;
 }
 .timeline p {
-  margin: 0;
-  font-size: 13px;
-  color: #0f172a;
+    margin: 0;
+    font-size: 13px;
+    color: #0f172a;
 }
 /* Estilos para la sección de otros */
 .otros {
@@ -365,11 +365,11 @@ span {
     font-family: sans-serif;
 }
 .video-otros {
-  display: flex;
-  flex-wrap: nowrap; 
-  align-items: center;     
-  padding: 20px 0;
-  box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center;     
+    padding: 20px 0;
+    box-sizing: border-box;
 }
 .video-container {
     margin-left: 40px;
@@ -377,10 +377,10 @@ span {
     margin-top: 0;
 }
 .video-container iframe {
-  width: 640px; 
-  height: 480px;
-  display: block;
-  border-radius: 6px;
+    width: 640px; 
+    height: 480px;
+    display: block;
+    border-radius: 6px;
 }
 .video-description{
     margin: 40px;
@@ -407,18 +407,63 @@ span {
 }
 /* Estilos para el botón de WhatsApp */
 .whatsapp-float {
-  position: fixed;
-  bottom: 40px;   
-  right: 40px;    
-  z-index: 1000;
+    position: fixed;
+    bottom: 40px;   
+    right: 40px;    
+    z-index: 1000;
 }
 .whatsapp-float img {
-  width: 60px;  
-  height: 60px;
-  border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  transition: transform 0.2s ease;
+    width: 60px;  
+     height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
 }
 .whatsapp-float img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* Fondo oscuro del modal */
+.overlay {
+    position: fixed;
+    bottom: 120px;   
+    right: 40px; 
+    width: auto; height: auto;
+     background: rgba(0,0,0,0.8);
+    display: none; /* oculto por defecto */
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+/* Caja del modal */
+.modal {
+    background: rgb(169, 169, 169, 0.3);
+    padding: 20px;
+    border-radius: 16px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.modal a {
+    display: block;
+    padding: 10px;
+    margin: 8px 0;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.modal h2 {
+    color: white;
+    text-shadow: #bbb8b8;
+}
+.modal a:hover {
+    background: #128C7E;
+}
+.modal button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    border: none;
+    background: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
 }

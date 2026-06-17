@@ -201,9 +201,23 @@
                 </div>
             </div>
         </section>
-        <!-- Botón de WhatsApp -->
-        <a href="https://wa.me/595986221400?text=Hola%20quiero%20ayuda%20adicional." target="_blank" rel="noopener" class="whatsapp-float">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" /></a>
+        <!-- Botón flotante de WhatsApp -->
+  <a href="#" class="whatsapp-float" id="waButton">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+  </a>
+
+  <!-- Modal con opciones -->
+  <div id="waModal" class="overlay">
+    <div class="modal">
+      <h2>Elegir contacto</h2>
+      <a href="https://wa.me/595986221400" target="_blank" rel="noopener">Cristhian Redes</a>
+      <a href="https://wa.me/595982156163" target="_blank" rel="noopener">Gustavo González</a>
+      <a href="https://wa.me/595991986712" target="_blank" rel="noopener">Blas Gimenez</a>
+      <button id="closeBtn">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="./js/modal-wa.js"></script>
         <hr>    
               <!--Informacion de contacto-->
         <footer class="footer-contacto" id="contacto">
