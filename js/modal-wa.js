@@ -4,7 +4,15 @@ document.getElementById("waButton").addEventListener("click", function(event) {
   document.getElementById("waModal").style.display = "flex";
 });
 
-// Cerrar modal
+// Cerrar modal con botón
 document.getElementById("closeBtn").addEventListener("click", function() {
   document.getElementById("waModal").style.display = "none";
+});
+
+// Cerrar modal clicando fuera del contenido
+document.getElementById("waModal").addEventListener("click", function(event) {
+  // Si el clic fue directamente en el fondo (overlay), cerramos
+  if (event.target === this) {
+    this.style.display = "none";
+  }
 });
