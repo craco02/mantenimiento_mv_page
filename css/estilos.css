@@ -524,7 +524,7 @@ span {
     }
 }
 
-/* Estilos para el botón de WhatsApp */
+/* Botón flotante */
 .whatsapp-float {
     position: fixed;
     bottom: 40px;   
@@ -533,50 +533,52 @@ span {
 }
 .whatsapp-float img {
     width: 60px;  
-     height: 60px;
+    height: 60px;
     border-radius: 50%;
-    box-shadow: 0 2px 6px rgba(0,0,0);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
     transition: transform 0.2s ease;
 }
 .whatsapp-float img:hover {
     transform: scale(1.1);
 }
-/* Fondo oscuro del modal */
+
+/* Overlay (fondo oscuro) */
 .overlay {
     position: fixed;
-    bottom: 120px;   
-    right: 40px; 
-    width: auto; height: auto;
-     background: rgba(0,0,0);
+    inset: 0; /* ocupa toda la pantalla */
+    background: rgba(0,0,0,0.5);
     display: none; /* oculto por defecto */
     justify-content: center;
     align-items: center;
-    border-radius: 16px;
+    z-index: 999;
 }
+
 /* Caja del modal */
 .modal {
+    position: absolute;
+    bottom: 150px;
+    right: 60px;
     background: #a9a9a9;
     padding: 20px;
     border-radius: 16px;
     width: 280px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 .modal a {
     display: block;
     padding: 10px;
     margin: 8px 0;
     background: #25D366;
-    color: white;
+    color: #F1F1F1;
     text-decoration: none;
     border-radius: 4px;
 }
 .modal h2 {
-    color: white;
-    text-shadow: #bbb8b8;
+    color: #F1F1F1;
 }
 .modal a:hover {
-    background: #128C7E;
+    background: #1EBE5B;
 }
 .modal button {
     margin-top: 15px;
@@ -585,4 +587,7 @@ span {
     background: #ccc;
     border-radius: 4px;
     cursor: pointer;
+}
+.modal button:hover {
+    background-color: #8f8c8c;
 }
