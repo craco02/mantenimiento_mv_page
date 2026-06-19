@@ -51,26 +51,27 @@
     outline: none;
 }
 #fallback {
-  display: none;
-  width: 100%;
-  text-align: center;
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 #fallback-link {
-  display: inline-block;
-  padding: 20px 40px;              /* mismo tamaño que tu botón 3D */
-  background-color: #0078d7;       /* color base */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  box-shadow: 0 6px #005a9e;       /* efecto 3D */
-  transition: all 0.3s ease;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #0078d7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 6px #005a9e;       
+    transition: all 0.3s ease;
 }
 
 #fallback-link:hover {
-  background-color: #005a9e;
-  box-shadow: 0 4px #004377;
-  transform: translateY(2px);
+    background-color: #005a9e;
+    box-shadow: 0 4px #004377;
+    transform: translateY(2px);
 }
