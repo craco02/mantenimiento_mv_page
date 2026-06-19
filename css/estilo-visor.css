@@ -50,27 +50,27 @@
     border: none;
     outline: none;
 }
-.btn-3d {
-    position: absolute; 
-    top: 200px;            
-    right: 120px; 
-    width: 120px;
-    height: 40px;
-    margin: 20px;
-    padding: 0 20px;
-    padding-top: 20px;
-    font-family: arial;
-    font-size: 20px;
-    text-align: center;
-    background-color: green;
-    border: 2px solid darkgreen;
-    border-radius: 3px;
+#fallback {
+  display: none;
+  width: 100%;
+  text-align: center;
 }
-.btn-3d:hover {
-    background-color: darkgreen;
-    border-color: darkgreen;
+
+#fallback-link {
+  display: inline-block;
+  padding: 20px 40px;              /* mismo tamaño que tu botón 3D */
+  background-color: #0078d7;       /* color base */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 6px #005a9e;       /* efecto 3D */
+  transition: all 0.3s ease;
 }
-.btn-3d a {
-    color: white;
-    text-decoration: none;
+
+#fallback-link:hover {
+  background-color: #005a9e;
+  box-shadow: 0 4px #004377;
+  transform: translateY(2px);
 }
