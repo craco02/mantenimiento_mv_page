@@ -33,7 +33,6 @@ const grupos = {
     { nombre: "Ficha técnica - gd0800c", url: "https://drive.google.com/file/d/1eCHOzcTWYU9HzqNJwZ_I3PpHpvBv7N9J/preview" },
     { nombre: "Ficha técnica - hr2470", url: "https://drive.google.com/file/d/19E9F-9jQvIeYJ1gyzmrOM18aQumEs5Ih/preview" },
     { nombre: "Ficha técnica - fs2700", url: "https://drive.google.com/file/d/15mtw9YSztA9eN6lAR6-WdyApBOhtV-jx/preview" },
-
     { nombre: "Despiece - 9557NB", url: "https://drive.google.com/file/d/1IFnwmV4QKdsVddhzbQuDXQZuDVir63eT/preview" },
     { nombre: "Despiece - GA9020", url: "https://drive.google.com/file/d/1sm7Zm4DiYqgy2g3k5bW2-aCuWcm6Zgbg/preview" },
     { nombre: "Despiece - HP1640", url: "https://drive.google.com/file/d/1fk9X8Gz5uZUCB9Mj1iX1yts79WUi5WMg/preview" },
@@ -41,7 +40,6 @@ const grupos = {
     { nombre: "Despiece - GD0800C", url: "https://drive.google.com/file/d/1EJp_2PDpCKg9YgwKV1PiL7ahFoVzJz1Q/preview" },
     { nombre: "Despiece - HR2470", url: "https://drive.google.com/file/d/1ja150ukRLV65S8jC8lVEprYuHaddetzk/preview" },
     { nombre: "Despiece - FS2700", url: "https://drive.google.com/file/d/11FiAAgSGX7F4PAR5oMEgcYkgTgVJvIuu/preview" },
-
     { nombre: "Método de reparación - HR2470", url: "https://drive.google.com/file/d/1aRs0pCBbiGALNCI82hkUnkCqdk1sfzFI/preview" },
     { nombre: "Método de reparación - FS2700", url: "https://drive.google.com/file/d/1vJAAEMbB3D5788WvFgF5chdxndNLmbCa/preview" },
   ],
@@ -51,15 +49,31 @@ const grupos = {
     { nombre: "Norma Paraguaya NP_2_028_13", url: "https://drive.google.com/file/d/1XAzptRdntv93bbRDq-1msQfz68s0M_SI/preview" },
     { nombre: "Reglamento de Baja Tensión Vigente", url: "https://drive.google.com/file/d/19y7gRFtq-7rz2JAW7EYhQtodL1WTJ98A/preview" },
     { nombre: "Pliego de Tarifas NRO 21", url: "https://drive.google.com/file/d/1foU9XfrNHWsEwwFAVwCV0I1gSl_lZwFl/preview" },
-
     { nombre: "Temario para examen de matriculación", url: "https://drive.google.com/file/d/1CWZ8e-42UJ-ZNtx2guOwzD47a6K5O4jr/preview" },
     { nombre: "Solicitud de Carnet de Electricista Particular", url: "https://drive.google.com/file/d/1K_-Af_EU2MdT3tAAjG86LP7viAGqMBO9/preview" },
     { nombre: "Calendario MEEDA 2026", url: "https://drive.google.com/file/d/1h-9kdg7cFkY8LYLMzl84FtlQbOeNbdXQ/preview" },
     { nombre: "RP46876 Manual de cálculo tasa de conexión", url: "https://drive.google.com/file/d/1p83M14e8129jHksOphZ8kinRf1lmafJE/preview" },
-
     { nombre: "Cálculo sección de conductor baja tensión", url: "https://drive.google.com/file/d/1uJP6R-lDbFIlg6eQh46u7e5vntccwv6y/preview" },
     { nombre: "Norma de instalaciones Electromecánicas", url: "https://drive.google.com/file/d/1r7SelOf9RZO-BrkVY5tEwHCBsulSDk85/preview" },
   ],
+
+  // Grupo 4 – Datos de Puete Grúa
+  grupo4: [
+  
+    { nombre: "Manual de Mantenimiento Preventivo Puente Grúa", url: "https://drive.google.com/file/d/1Hc3-X2axP_qdzaagbxcaq6StyxR7ieuQ/preview" },
+    { nombre: "Rueda, Motorreductores, Carrocabezales de Puente Grúa", url: "https://drive.google.com/file/d/1_B78FxjxqopvjfIVqyJtOb67xfrrfmQ3/preview" },
+    { nombre: "Características y Especificaciones Polipasto a Cadena", url: "https://drive.google.com/file/d/1lT6Vs5rfcd7s-mGOb_idElS2-Z3SNhda/preview" },
+    { nombre: "Características y Especificaciones Polipasto a Cabo", url: "https://drive.google.com/file/d/1lr5H7bKhPedIi1Js45lWYUlNcnI8H1_J/preview" },
+    { nombre: "Accesorios Puente Grúa por capacidades", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMdws-7J5eroY1-TIIkMxuvM1A-V6n0Bo5Z2cbM63cXsGCsGYrI62kl-4IdvxMkg/pubhtml?widget=true&amp;headers=false" },
+    { nombre: "Tabla de parámetros puente grúa", url: "https://mvaceros-my.sharepoint.com/personal/reparaciones_metalurgicavera_com_py/_layouts/15/Doc.aspx?sourcedoc={3c0b4334-ae8f-4749-a77e-8eb81cefa590}&action=embedview&AllowTyping=True&ActiveCell='CALCULOS'!A2&wdInConfigurator=True&wdInConfigurator=True&edaebf=rslc0" },
+    { nombre: "Acta de recepción de puente grúa", url: "https://drive.google.com/file/d/16RwDfiw30xJiADDeSlZojfP1Pdx7tebe/preview" },
+    { nombre: "Presentación Puentes Grúa, generalidades y consideraciones", url: "https://docs.google.com/presentation/d/e/2PACX-1vQgTdK_NJK4rEcTRQuszWaxL7_v_HoJEr6ZeXE8JGKYVdUTmfYI5hHnvpiqkjRBnw/pubembed?start=false&loop=false&delayms=15000" },
+    { nombre: "Curso de Seguridad, Uso y Manejo de Puentes Grúas", url: "https://docs.google.com/presentation/d/e/2PACX-1vSGwGk2um4Y6tZEuBOu70gzm2DCwW6myv1eH9W1Fxyxn4Ryi6AAgurU_069Pti77w/pubembed?start=false&loop=false&delayms=15000" },
+    { nombre: "Datos técnicos de Polipastos Puente Grúa", url: "https://drive.google.com/file/d/1HghffDYRfwxRNkNDxZExMNvSqHfWjfvz/preview" },
+    { nombre: "Manual de operaciones Guinche a cadena - Inglés", url: "https://drive.google.com/file/d/1bxWzCopRg9S2Rr6tQhWXPZKlqLWJ1Q5K/preview" },
+    { nombre: "Modelo 3D", url: "link:https://cad.onshape.com/documents/c28c9693bdd10cdc1f48da6e/w/fcf09065dd80c17df7290cd9/e/dc14b814c5d5d45325fcb6de" },
+  ],
+
 };
 
 // Función para cargar un grupo en el select
@@ -89,5 +103,51 @@ window.addEventListener("DOMContentLoaded", () => {
   const grupo = params.get("grupo");
   if (grupo) {
     cargarGrupo(grupo);
+  }
+});
+
+// Escuchar cambios en el select y manejar fallback
+document.getElementById("listaDocs").addEventListener("change", () => {
+  const url = document.getElementById("listaDocs").value;
+  const visor = document.getElementById("visor");
+  const fallback = document.getElementById("fallback");
+  const fallbackLink = document.getElementById("fallback-link");
+
+  if (url.startsWith("link:")) {
+    const realUrl = url.replace("link:", "");
+    fallbackLink.href = realUrl;
+    fallbackLink.textContent = "modelo 3D";
+    fallback.style.display = "inline-flex";
+    visor.src = ""; // limpiar iframe
+  } else {
+    fallback.style.display = "none";
+    if (url) {
+      visor.src = url;
+    } else {
+      visor.src = "";
+    }
+  }
+});
+// Diccionario de nombres personalizados
+const nombresGrupos = {
+  grupo1: "Datos Técnicos - Equipos de Soldar Helvi",
+  grupo2: "Datos Técnicos - Herramientas Eléctricas Makita",
+  grupo3: "Reglamento y Documentos ANDE",
+  grupo4: "Datos Técnicos - Puentes Grúa"
+  // ... agrega los que necesites
+};
+
+// Actualizar título dinámico con nombre personalizado
+window.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const grupo = params.get("grupo");
+  if (grupo) {
+    cargarGrupo(grupo);
+
+    const titulo = document.querySelector(".select-title h2");
+    if (titulo) {
+      // Si existe un nombre personalizado, úsalo; si no, muestra el código del grupo
+      titulo.textContent = nombresGrupos[grupo] || grupo;
+    }
   }
 });
