@@ -300,6 +300,13 @@ span {
     font-size: clamp(18px, 2.5vw, 25px);
     font-family: Arial;
 }
+.informaciones li::marker {
+color: darkblue;
+padding: 25px;
+font-weight: bold;
+font-size: 1.5em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .informaciones .Datos {
     margin: 20px auto;
     flex: 1 1 300px;
