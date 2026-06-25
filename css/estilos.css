@@ -269,7 +269,7 @@ span {
     height: auto;
     margin: 0;
     padding: 0;
-    background-color: #0000801a;
+    /*background-color: #0000801a;*/ 
 }
 
 /* Títulos y párrafos */
