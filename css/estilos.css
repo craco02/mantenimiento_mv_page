@@ -472,17 +472,15 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .video-otros {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    gap: 20px;
     padding: 20px 0;
     box-sizing: border-box;
-    margin-left: 10%;
-    margin-top: 5%;
+    margin: 0;
     /*background-color: #070707;*/
 }
 .video-container {
-    margin: 0;                
+    margin:  7% auto auto 10%;                
     max-width: 720px;
     flex: 1 1 400px;
 }
@@ -496,7 +494,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .video-description {
     flex: 1 1 400px;       
-    margin: 5% auto auto 0;
+    margin: 0 10% 0 0;
     padding: 20px;
     max-width: 640px;
     background-color: #333333;
@@ -553,15 +551,15 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     gap: 20px;
     padding: 20px 0;
-    margin-left: 10%;
-    margin-top: 5%;
+    margin: 0;
     box-sizing: border-box;
     /*background-color: #070707;*/
 }
 .video-container2 {
-    margin: 8% auto auto 2%;                
+    margin: 8% auto auto 4%;                
     max-width: 720px;
     flex: 1 1 400px;
+
 }
 .video-container2 iframe {
     width: 100%;
@@ -573,7 +571,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .video-description2 {
     flex: 1 1 400px;       
-    margin: 0 0 0 40px;
+    margin: 0 0 0 10%;
     padding: 20px;
     max-width: 640px;
     background-color: #333333;
