@@ -477,6 +477,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     gap: 20px;
     padding: 20px 0;
     box-sizing: border-box;
+    margin-left: 10%;
+    margin-top: 5%;
     /*background-color: #070707;*/
 }
 .video-container {
@@ -494,7 +496,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .video-description {
     flex: 1 1 400px;       
-    margin: 0 0 0 40px;
+    margin: 5% auto auto 0;
     padding: 20px;
     max-width: 640px;
     background-color: #333333;
@@ -513,6 +515,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px 0;
     padding: 0;
     color: white;
+    text-indent: 30px;
 }
 
 /* 📱 Tablet */
@@ -537,6 +540,83 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 18px;
     }
     .video-description p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+} 
+/* Sección otros 2*/
+.video-otros2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-sizing: border-box;
+    /*background-color: #070707;*/
+}
+.video-container2 {
+    margin: 8% auto auto 2%;                
+    max-width: 720px;
+    flex: 1 1 400px;
+}
+.video-container2 iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;   
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+.video-description2 {
+    flex: 1 1 400px;       
+    margin: 0 0 0 40px;
+    padding: 20px;
+    max-width: 640px;
+    background-color: #333333;
+    border-radius: 16px;
+}
+.video-description2 h3 {
+    margin: 10px 0;
+    font-size: clamp(20px, 2.5vw, 26px);
+    font-family: sans-serif;
+    color: white;
+}
+.video-description2 p {
+    font-size: clamp(14px, 2vw, 21px);
+    line-height: 1.5;
+    color: black;
+    margin: 10px 0;
+    padding: 0;
+    color: white;
+    text-indent: 30px;
+}
+
+/* 📱 Tablet */
+@media (max-width: 768px) {
+    .video-otros2 {
+        flex-direction: column;   /* apila video y descripción */
+        align-items: center;
+    }
+    .video-description2 {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* 📱 Móvil */
+@media (max-width: 480px) {
+    .otros h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .video-description2 h3 {
+        font-size: 18px;
+    }
+    .video-description2 p {
         font-size: 14px;
         line-height: 1.4;
     }
