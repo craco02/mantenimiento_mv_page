@@ -1,5 +1,7 @@
 html, body {
     min-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -38,8 +40,10 @@ body {
     height: 100%;
 }
 .logo img { 
+    max-width: 100%;
     height: auto;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 /* Hero */
@@ -165,6 +169,11 @@ body {
     width: 80%;
     justify-content: center;
    /* background-color: red;*/
+}
+.card img {
+    width: 200px;
+    height: 120px;
+    max-width: 100%;
 }
 .inicio h2 {
     display: flex;
@@ -339,6 +348,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     padding: 0;
     margin: 0;
+    width: min(100%, 720px);
+    box-sizing: border-box;
 }
 .datos-container h3 {
     font-size: clamp(18px, 2.5vw, 22px);
@@ -347,6 +358,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     color: whitesmoke;
     text-shadow: 2px 2px rgba(169, 169, 169, 0.171);
+}
+.datos-container iframe,
+.informaciones .Datos {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 .option-list li:hover {
     background-color:#d9fcd9;
@@ -380,6 +397,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .Datos {
         width: 90%;
+    }
+    .datos-container {
+        padding: 0 10px;
     }
 }
 
@@ -496,6 +516,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:  7% auto auto 10%;                
     max-width: 720px;
     flex: 1 1 400px;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 .video-container iframe {
     width: 100%;
@@ -510,6 +533,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 10% 0 0;
     padding: 20px;
     max-width: 640px;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #333333;
     border-radius: 16px;
 }
@@ -537,7 +563,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .video-description {
         width: 90%;
+        margin: 0;
         text-align: center;
+    }
+    .video-container {
+        width: 90%;
+        margin: 0;
     }
 }
 
@@ -572,6 +603,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 8% auto auto 4%;                
     max-width: 720px;
     flex: 1 1 400px;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 .video-container2 iframe {
@@ -587,6 +621,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 0 0 10%;
     padding: 20px;
     max-width: 640px;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #333333;
     border-radius: 16px;
 }
@@ -614,7 +651,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .video-description2 {
         width: 90%;
+        margin: 0;
         text-align: center;
+    }
+    .video-container2 {
+        width: 90%;
+        margin: 0;
     }
 }
 
@@ -670,8 +712,47 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
     border-radius: 16px;
     width: 280px;
+    max-width: calc(100% - 40px);
+    box-sizing: border-box;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 480px) {
+    .principal {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 20px auto;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .formularios-timeline h2 {
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .timeline {
+        margin: 0;
+        padding: 20px 10px 20px 20px;
+    }
+    .timeline::before {
+        left: 27px;
+    }
+    .timeline li {
+        padding-left: 45px;
+    }
+    .timeline li::before {
+        left: 0;
+    }
+    .whatsapp-float {
+        right: 20px;
+        bottom: 20px;
+    }
+    .modal {
+        right: 20px;
+        bottom: 100px;
+    }
 }
 .modal a {
     display: block;
