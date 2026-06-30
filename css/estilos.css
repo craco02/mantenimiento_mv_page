@@ -143,9 +143,6 @@ body {
     .list-bar {
        display: none;
     }
-    .list-bar {
-        display: none;
-    }
     .nav-bar {
         display: none;
     }
@@ -548,7 +545,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .video-description p {
     font-size: clamp(14px, 2vw, 21px);
     line-height: 1.5;
-    color: black;
     margin: 10px 0;
     padding: 0;
     color: white;
@@ -636,7 +632,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .video-description2 p {
     font-size: clamp(14px, 2vw, 21px);
     line-height: 1.5;
-    color: black;
     margin: 10px 0;
     padding: 0;
     color: white;
@@ -662,10 +657,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 /* 📱 Móvil */
 @media (max-width: 480px) {
-    .otros h2 {
-        text-align: center;
-        font-size: 20px;
-    }
     .video-description2 h3 {
         font-size: 18px;
     }
