@@ -581,6 +581,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 14px;
         line-height: 1.4;
     }
+    .video-container2 {
+        width: 60%;
+        margin: 0;
+    }
 } 
 /* Sección otros 2*/
 .video-otros2 {
@@ -663,6 +667,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     .video-description2 p {
         font-size: 14px;
         line-height: 1.4;
+    }
+    .video-container2 {
+        width: 60%;
+        margin: 0;
     }
 }
 
