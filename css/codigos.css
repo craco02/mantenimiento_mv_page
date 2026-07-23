@@ -1,20 +1,22 @@
 /* Encapsulado con prefijo codigos- */
 #codigos-title {
   text-align: center;
-  color: #333;
+  color: #fff;
   margin-bottom: 15px;
 }
 
 #codigos-search {
-  width: 100%;
+  display: flex;
+  width: 80%;
   padding: 10px;
-  margin-bottom: 15px;
+  margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 #codigos-table {
-  width: 100%;
+  width: 75%;
+  margin: 15px auto;
   border-collapse: collapse;
   background: #fff;
 }
